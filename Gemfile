@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'mongo_mapper', '~> 0.12.0'
+gem 'pry'
+gem "sidekiq", '3.4.2'

@@ -1,0 +1,59 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (3.2.22.5)
+      activesupport (= 3.2.22.5)
+      builder (~> 3.0.0)
+    activesupport (3.2.22.5)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    bson (1.12.5)
+    builder (3.0.4)
+    celluloid (0.16.0)
+      timers (~> 4.0.0)
+    coderay (1.1.1)
+    connection_pool (2.2.1)
+    hitimes (1.2.5)
+    i18n (0.8.4)
+    json (1.8.6)
+    method_source (0.8.2)
+    mini_portile2 (2.2.0)
+    mongo (1.12.5)
+      bson (= 1.12.5)
+    mongo_mapper (0.12.0)
+      activemodel (~> 3.0)
+      activesupport (~> 3.0)
+      plucky (~> 0.5.2)
+    multi_json (1.12.1)
+    nokogiri (1.8.0)
+      mini_portile2 (~> 2.2.0)
+    plucky (0.5.2)
+      mongo (~> 1.5)
+    pry (0.10.4)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    redis (3.3.3)
+    redis-namespace (1.5.3)
+      redis (~> 3.0, >= 3.0.4)
+    sidekiq (3.4.2)
+      celluloid (~> 0.16.0)
+      connection_pool (~> 2.2, >= 2.2.0)
+      json (~> 1.0)
+      redis (~> 3.2, >= 3.2.1)
+      redis-namespace (~> 1.5, >= 1.5.2)
+    slop (3.6.0)
+    timers (4.0.4)
+      hitimes
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  mongo_mapper (~> 0.12.0)
+  nokogiri
+  pry
+  sidekiq (= 3.4.2)
+
+BUNDLED WITH
+   1.11.2
